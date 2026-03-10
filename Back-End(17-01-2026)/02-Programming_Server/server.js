@@ -9,7 +9,7 @@ app.get("/", (req, res)=>{
 app.get("/about", (req, res)=>{ // api path kaise set hota hai
     res.send("This is about page of day 2")
 })
-
-app.listen(port, ()=>{      // aap.listen server ko start karta hai
+5
+app.listen(port, ()=>{      // app.listen server ko start karta hai
     console.log("server is running on port", port);
 })

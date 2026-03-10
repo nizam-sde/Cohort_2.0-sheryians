@@ -17,7 +17,7 @@ app.get("/", (req, res)=>{      // client ko kaha pr bhejna hai jab wo homepage 
     res.send("Welcome to Backend - Day 2 - Programming Server")
 })
 
-app.listen(port, ()=>{      // aap.listen server ko start karta hai
+app.listen(port, ()=>{      // app.listen server ko start karta hai
     console.log("server is running on port", port);
 })
 
